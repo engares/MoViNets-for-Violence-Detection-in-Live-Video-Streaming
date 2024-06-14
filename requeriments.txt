@@ -1,0 +1,17 @@
+keras==2.15.0
+tensorflow==2.15.0
+tf-models-official==2.15.0
+remotezip
+tqdm
+opencv-python>=4.5.2.52
+opencv-python-headless>=4.5.2.52
+imageio
+gdown
+tensorflow_hub
+git+https://github.com/tensorflow/docs
+seaborn
+mediapy
+ipympl
+moviepy
+scikit-image
+git+https://github.com/okankop/vidaug
