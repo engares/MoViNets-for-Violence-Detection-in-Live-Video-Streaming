@@ -41,6 +41,5 @@ This project focuses on leveraging MoViNet models to effectively detect violence
    ```bash
    video_path = "./test_videos/test2"
 
-
    
    
