@@ -27,11 +27,11 @@ This project focuses on leveraging MoViNet models to effectively detect violence
    ```bash
    pip install -r requeriments.txt
    sudo apt update && sudo apt install -y ffmpeg
-3. Download the models
+3. Download the models (1.8 GB, this may take time)
    ```bash
    git clone https://huggingface.co/engares/MoViNet4Violence-Detection
    
-4. Open the realtime-inference.ipynb and select one of the trained models based on the hyperparameters (the best model is chosen by default)
+4. Open the 'movinet_inference.ipynb' notebook and select one of the trained models based on the hyperparameters. (The best model is chosen by default)
    ```bash
    model_id = 'a3'
    fps = 12
@@ -39,6 +39,8 @@ This project focuses on leveraging MoViNet models to effectively detect violence
    lr = 0.001
    dr = 0.3
    trly = 0
+
+   inference_model, RESOLUTION = build_streaming_model(model_id, num_frames = fps, batch_size = bs, learning_rate = lr, dropout_rate = dr, trainable_layers = trly, dataset = dataname )
   
 5. Upload your local video/stream fragment
    ```bash
