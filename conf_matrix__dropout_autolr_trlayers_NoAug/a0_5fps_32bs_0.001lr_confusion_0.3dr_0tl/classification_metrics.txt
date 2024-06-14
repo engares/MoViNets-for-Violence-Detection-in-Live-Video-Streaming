@@ -1,0 +1,7 @@
+Performance Metrics:
+Label                 Precision          Recall        F1-Score         AUC-ROC
+----------------------------------------------------------------------
+Fight                    0.7215          0.8360          0.7745          0.7566
+No_Fight                 0.8050          0.6772          0.7356          0.7566
+Test Accuracy: 0.7646
+Test Loss: 0.7646
