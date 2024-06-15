@@ -25,7 +25,7 @@ _More examples on the 'example_videos' folder_
 
 ## Usage
 
-_You can use directly the [Colab Notebook here](https://colab.research.google.com/github/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/movinet_inference.ipynb)(      (RECOMENDED)_
+_You can use directly the [Colab Notebook here](https://colab.research.google.com/github/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/movinet_inference.ipynb)    (RECOMENDED)_
 
 Or you can run it on the python script:
 
