@@ -26,7 +26,7 @@ _More examples on the 'example_videos' folder_
 
 ## Usage
 
-_You can also use directly the Colab Notebook here_
+_You can also use directly the [Colab Notebook here](https://colab.research.google.com/github/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/movinet_inference.ipynb)_
 
 1. Clone the repository:
    ```bash
