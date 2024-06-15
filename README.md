@@ -42,9 +42,9 @@ This project focuses on leveraging MoViNet models to effectively detect violence
 
    inference_model, RESOLUTION = build_streaming_model(model_id, num_frames = fps, batch_size = bs, learning_rate = lr, dropout_rate = dr, trainable_layers = trly, dataset = dataname )
   
-5. Upload your local video/stream fragment
+5. Upload your local video/stream fragment (Mp4, avi, etc.)
    ```bash
-   video_path = "./test_videos/test2"
+   video_path = "./test_videos/test2.avi"
 
    
    
