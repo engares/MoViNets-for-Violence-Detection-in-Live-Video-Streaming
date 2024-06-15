@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on leveraging MoViNet models to effectively detect violence in video streams. Utilizing transfer learning and fine-tuning techniques, the goal is to achieve a high-performance model that operates efficiently on edge devices with limited resources.
+This project aims to harness the capabilities of MoViNet models to accurately detect instances of violence in video streams. By employing strategies such as transfer learning and fine-tuning, the objective is to develop a high-performance model that can function efficiently on edge devices, which often have limited computational resources. Specifically, the MoViNet-A3 model has demonstrated promising results, achieving an accuracy rate of 85%. This level of precision underscores the model's potential for real-time applications in environments where quick and reliable video analysis is critical.
 
 ## Key Features
 
@@ -25,7 +25,7 @@ _More examples on the 'example_videos' folder_
 
 ## Usage
 
-_You can use directly the [Colab Notebook here](https://colab.research.google.com/github/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/movinet_inference.ipynb)(      (RECOMENDED)_
+_You can use directly the [Colab Notebook here](https://colab.research.google.com/github/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/movinet_inference.ipynb)    (RECOMENDED)_
 
 Or you can run it on the python script:
 
