@@ -23,7 +23,7 @@ _You can also use directly the Colab Notebook here_
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository/movinets-violence-detection.git
+   git clone https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
 2. Install the required packages:
    ```bash
    pip install -r requeriments.txt
