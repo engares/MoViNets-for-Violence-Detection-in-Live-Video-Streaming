@@ -19,10 +19,11 @@ This project focuses on leveraging MoViNet models to effectively detect violence
 
 ## Usage
 
+_You can also use directly the Colab Notebook here_
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repository/movinets-violence-detection.git
-
 2. Install the required packages:
    ```bash
    pip install -r requeriments.txt
