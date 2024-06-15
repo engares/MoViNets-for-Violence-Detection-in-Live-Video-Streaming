@@ -10,8 +10,10 @@ This project focuses on leveraging MoViNet models to effectively detect violence
 - **Transfer Learning**: Employs this pre-trained models on human action recognition to enhance learning efficacy and reduce the necessity for extensive computational resources.
 - **Real-time Operation**: Optimized for real-time applications, ensuring swift and accurate violence detection.
 
-## Examples of the visual interface
-![Fight_2](https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/assets/126718587/35e32b64-d29a-4a80-b7d5-728577704bcb)
+## Example of the visual interface for the inference
+<p align="center">
+  <img src="https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/assets/126718587/35e32b64-d29a-4a80-b7d5-728577704bcb" alt="Fight_2">
+</p>
 
 _More examples on the 'example_videos' folder_
 
