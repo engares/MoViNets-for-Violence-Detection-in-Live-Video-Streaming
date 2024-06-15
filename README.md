@@ -6,8 +6,8 @@ This project focuses on leveraging MoViNet models to effectively detect violence
 
 ## Key Features
 
-- **Model Training**: Utilizes MoViNets, an advanced architecture from Google Research (Kondratyuk et al., 2021) known for its efficiency in mobile and edge computing environments. Employs transfer-learning on this pre-trained models on human action recognition to enhance learning efficacy and reduce the necessity for extensive computational resources. The code is available in _'movinet_training'_. The training and the evaluation metrics are availible in the folders  above, as well as a futher analysis on those results. 
-- **Real-time Operation**: Optimized for real-time applications, ensuring swift and accurate violence detection, the inference can be performed through _'movinet_inference'_
+- **Model Training**: Utilizes MoViNets, an advanced architecture from Google Research (Kondratyuk et al., 2021) known for its efficiency in mobile and edge computing environments. Employs transfer-learning on this pre-trained models on human action recognition to enhance learning efficacy and reduce the necessity for extensive computational resources. The code is available in _'movinet_training.ipynb'_. The training and the evaluation metrics are availible in the folders  above, as well as a futher analysis on those results. 
+- **Real-time Operation**: Optimized for real-time applications, ensuring swift and accurate violence detection, the inference can be performed through _'movinet_inference.ipynb'_
 
 ## Example of the visual interface for the inference
 <p align="center">
