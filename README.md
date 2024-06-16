@@ -12,7 +12,7 @@ This project aims to harness the capabilities of MoViNet models to accurately de
 ## Example of the visual interface for the inference
 <p align="center">
   <img src="https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/assets/126718587/35e32b64-d29a-4a80-b7d5-728577704bcb" alt="Fight_2">
-</p>
+  <img src="https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/assets/126718587/c51f3226-9d6b-4247-958b-da6e11196c73" alt="Fight_1">
 
 _More examples on the 'example_videos' folder_
 
