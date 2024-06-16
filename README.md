@@ -43,6 +43,6 @@ Or you can run it on the python script:
 4. Run 'movinet_inference.py' indicating the path to the video and one ofselecting one of the trained models based on the hyperparameters. (The best model is chosen by default)
    ```bash
    python movinet_inference.py [/path/to/video.mp4] --model_id a3 --lr 0.001 --bs 64 --dr 0.3 --trly 0
-The full list of models with its performance metrics is available is on [this .csv](https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/evaluation_metric_analyisis/model_performance_metrics.csv)
+The full list of models with its performance metrics is available is on [this .csv](https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/evaluation_metric_analysis/model_performance_metrics.csv)
 
 
