@@ -32,6 +32,7 @@ Or you can run it on the python script in a virtual environment:
 1. Clone the repository
    ```bash
    git clone https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
+   cd MoViNets-for-Violence-Detection-in-Live-Video-Streaming
 2. Install the required packages
    ```bash
    pip install -r requeriments.txt
