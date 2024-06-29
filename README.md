@@ -16,18 +16,21 @@ This project aims to harness the capabilities of MoViNet models to accurately de
 
 _More examples on the 'example_videos' folder_
 
-## Requirements
+## Usage of normal inference
+
+_You can use directly the [Colab Notebook here](https://colab.research.google.com/drive/1O3F8X7JPkqKmz9CruN0Dr3QaXlS5LNLl?usp=sharing)    (RECOMENDED)_
+
+Or you can run it on the python script in a virtual environment:
+
+
+### Requirements
 
 - Python 3.10+
 - TensorFlow 2.15+
 - linux distro
 - Other dependencies listed in `requirements.txt`
 
-## Usage of normal inference
-
-_You can use directly the [Colab Notebook here](https://colab.research.google.com/drive/1O3F8X7JPkqKmz9CruN0Dr3QaXlS5LNLl?usp=sharing)    (RECOMENDED)_
-
-Or you can run it on the python script in a virtual environment:
+### Steps
 
 1. Clone the repository
    ```bash
@@ -41,7 +44,7 @@ Or you can run it on the python script in a virtual environment:
    ```bash
    git clone https://huggingface.co/engares/MoViNet4Violence-Detection
    
-4. Run 'movinet_inference.py' indicating the path to the video and one ofselecting one of the trained models based on the hyperparameters. (The best model is chosen by default)
+4. Run _'movinet_inference.py'_ indicating the path to the video and one ofselecting one of the trained models based on the hyperparameters. (The best model is chosen by default)
    ```bash
    python movinet_inference.py [/path/to/video.mp4] --model_id a3 --lr 0.001 --bs 64 --dr 0.3 --trly 0
 The full list of models with its performance metrics is available is on [this .csv](https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/evaluation_metrics_analysis/model_performance_metrics.csv)
@@ -52,6 +55,31 @@ Note. _This Tensorflow implementation does not work for tf-lite_
 
 
 ## Usage for tf-lite inference
+
+### Requirements
+- Python 3.10+
+- TensorFlow 2.15+
+- Jupyter-notebook
+- linux distro based Single-board Computer
+- Other dependencies listed in `requirements_tf_lite.txt`
+
+### Steps
+
+1. Downloading the repo
+   ```bash
+   git clone https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
+   cd MoViNets-for-Violence-Detection-in-Live-Video-Streaming
+2. Install the required packages
+   ```bash
+   sudo apt-get install pkg-config libhdf5-dev
+   pip install -r ./MoViNets-for-Violence-Detection-in-Live-Video-Streaming/requeriments_tflite.txt
+   
+4. Open the _'movinet_tf_lite_inference.ipynb'_ and select the file. Also available [here on colab](https://colab.research.google.com/drive/1APNP5y0GhIY6AEL2wJyozlL1y4UyN_aC?usp=sharing), if you want to connect it to your local Runtime
+   
+Note. _The default tflite model used is the one avilable in this repo, corresponfing to the best model trained. If you want to export your own tf-lite model, check the last section of this [Colab Notebook](https://colab.research.google.com/drive/1O3F8X7JPkqKmz9CruN0Dr3QaXlS5LNLl?usp=sharing)_
+
+
+
 
 
 
