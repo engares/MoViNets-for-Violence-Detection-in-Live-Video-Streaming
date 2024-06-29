@@ -25,13 +25,14 @@ _More examples on the 'example_videos' folder_
 
 ## Usage
 
-_You can use directly the [Colab Notebook here](https://colab.research.google.com/github/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/movinet_inference.ipynb)    (RECOMENDED)_
+_You can use directly the [Colab Notebook here](https://colab.research.google.com/drive/1O3F8X7JPkqKmz9CruN0Dr3QaXlS5LNLl?usp=sharing)    (RECOMENDED)_
 
-Or you can run it on the python script:
+Or you can run it on the python script in a virtual environment:
 
 1. Clone the repository
    ```bash
    git clone https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
+   cd MoViNets-for-Violence-Detection-in-Live-Video-Streaming
 2. Install the required packages
    ```bash
    pip install -r requeriments.txt
@@ -46,3 +47,4 @@ Or you can run it on the python script:
 The full list of models with its performance metrics is available is on [this .csv](https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming/blob/main/evaluation_metrics_analysis/model_performance_metrics.csv)
 
 
+Note. _This Tensorflow implementation does not work for ARM_
