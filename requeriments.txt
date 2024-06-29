@@ -15,3 +15,4 @@ ipympl
 moviepy
 scikit-image
 git+https://github.com/okankop/vidaug
+seaborn
