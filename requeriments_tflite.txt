@@ -1,0 +1,11 @@
+tflite-runtime
+keras>=2.15.0
+tensorflow>=2.15.0
+tf-models-official>=2.15.0
+tqdm
+opencv-python>=4.5.2.52
+imageio
+git+https://github.com/tensorflow/docs
+ipympl
+moviepy
+
