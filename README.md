@@ -55,6 +55,7 @@ Note. _This Tensorflow implementation does not work for tf-lite_
 
 
 ## Usage for tf-lite inference
+_Tested on an Orange pi 5_
 
 ### Requirements
 - Python 3.10+
