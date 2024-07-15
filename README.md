@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to harness the capabilities of MoViNet models to accurately detect instances of violence in video streams. By employing strategies such as transfer learning and fine-tuning, the objective is to develop a high-performance model that can function efficiently on edge devices, which often have limited computational resources. Specifically, the MoViNet-A3 model has demonstrated promising results, achieving an accuracy rate of 85%. This level of precision underscores the model's potential for real-time applications in environments where quick and reliable video analysis is critical.
+This project aims to harness the capabilities of MoViNet models to accurately detect instances of violence in video streams. By employing strategies such as transfer learning and fine-tuning, the objective is to develop a high-performance model that can function efficiently on **edge devices** (like a raspberry pi or other SBCs), which often have limited computational resources. Specifically, the MoViNet-A3 model has demonstrated promising results, achieving an accuracy rate of 85%. This level of precision underscores the model's potential for real-time applications in environments where quick and reliable video analysis is critical.
 
 ## Key Features
 
